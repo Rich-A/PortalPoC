@@ -1,8 +1,10 @@
+
+
 #header-container{
-    position: absolute;
     height: 100px;
     width: 1900px;
-    
+    padding: 0px;
+    margin: 0px;
     white-space: nowrap;
    
    
@@ -16,42 +18,41 @@ a{
 }
 
 
+
+
 .hbutton:hover{
     background-color: orangered!important;
 }
 
-ol{
+li{
     display: inline-block;
     padding: 0px;
 
 }
 
-
-#top-header{
+.header {
+    margin:0px;
+    overflow: hidden;
     height: 60px;
     display: flex;
     float: left;
     clear: both;
     width:1900px;
+}
+
+#top-header{
+    
     background-color: black;
     
 }
 
 #bottom-header{
-    height: 60px;
-    display: flex;
-   float: left;
-   clear: both;
-   width:1900px;
-    background-color: #1E1D1D;
+    background-color: gray;
     
     
 }
 
-#bottom-header ol{
-    display: inline-block;
-    background-color: #1E1D1D;
-}
+
 
 .hbutton{
     border-left:1em solid transparent;
