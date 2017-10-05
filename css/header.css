@@ -15,13 +15,23 @@ a{
     text-decoration: none;
     overflow: hidden;
     
-}
+}   
 
+.hbutton a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
 
 
 
 .hbutton:hover{
     background-color: orangered!important;
+}
+
+.hbutton a:visited{
+    font-weight: normal!important;
+  
 }
 
 li{
@@ -55,16 +65,23 @@ li{
 
 
 .hbutton{
-    border-left:1em solid transparent;
-    border-right:1em solid transparent;
     font-size:25px ;
+    font-family: arial;
     padding: 2px;
     margin-right: 1px;
     color: white;
     height: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 100%;
    
+   
+}
+
+.hbutton .material-icons{
+    font-size:50px;
 }
 
 .bold{
@@ -88,4 +105,9 @@ li{
 
 .image{
     margin-top: 10px;
+}
+
+#home{
+
+    font-size: 50px;
 }
