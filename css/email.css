@@ -4,6 +4,18 @@
     
 }
 
+#email2{
+	background-color: #e1e5eb;
+	height: 400px;
+	padding-top: 50px;
+	padding-left: 150px;
+	padding-bottom: 40px;
+}
+
+#email2 h2{
+	font-size: 30px;
+}
+
 body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 
@@ -54,14 +66,7 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 }
 
 
-#email2{
-	margin-top: 100px;
-	margin-left: 150px;
-}
 
-#email2 h2{
-	font-size: 30px;
-}
 
 .bulk_text{
 	width: 975px;
