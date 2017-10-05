@@ -1,5 +1,5 @@
 ---
-title: porty
+title: portal
 timezone: UTC
 collections:
   posts:
@@ -21,3 +21,4 @@ defaults:
   values:
     layout: page
 permalink: pretty
+encoding: utf-8
