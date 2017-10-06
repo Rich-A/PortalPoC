@@ -2,7 +2,7 @@
 
 #header-container{
     height: 100px;
-    width: 1900px;
+    width: 100%;
     padding: 0px;
     margin: 0px;
     white-space: nowrap;
@@ -51,7 +51,7 @@ li{
     display: flex;
     float: left;
     clear: both;
-    width:1900px;
+    width:100%;
 }
 
 #top-header{
