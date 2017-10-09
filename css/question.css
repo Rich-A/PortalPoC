@@ -1,9 +1,34 @@
 body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 .content{
+    display: flex;
+    float: left;
+    clear: both;
     height: 400px;
     margin-left: 200px;
     padding-top: 50px;
+
+}
+
+.qzone{
+    width: 800px;
+}
+
+.mzone{
+    width:500px;    
+    background-color: rgb(100, 99, 99);
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+    padding-left: 30px;
+}
+
+.matters{
+   margin-top: 50px
+}
+
+.info{
+    margin-top:30px;
 
 }
 
