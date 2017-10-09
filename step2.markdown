@@ -11,5 +11,6 @@ answer2:
 answer3:
   Text: Not Technical data
   Link: step9
+layout: question
 ---
 
