@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <link rel="stylesheet" type="text/css" href="../css/question.css">
+
+<body>
+     <header id="header">
+      {% include header.html %}
+      </header>   
+
+      <div class="content">
+      
+
+
+    </div class= "question_box">
+    <p class= "question">{{page.question}}</p>
+    <a class= "answer" href="{{page.answer1link}}">{{page.answer1}}</a>
+    <a class= "answer" href="{{page.answer2link}}">{{page.answer2}}</a>
+    <a class= "answer" href="{{page.answer3link}}">{{page.answer3}}</a>
+
+
+
+</div>
+
+
+  <footer id="footer">
+    {% include footer.html %}
+      </footer>   
+</body>
+
+
+
+</html>
