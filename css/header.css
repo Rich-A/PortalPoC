@@ -25,7 +25,9 @@
     width: 100%;
 }
 
-
+.text{
+    margin-top: 15px!important;
+}
 
 .hbutton:hover{
     background-color: orangered!important;
@@ -43,6 +45,7 @@ li{
 }
 
 .header {
+ 
     margin:0px;
     overflow: hidden;
     height: 60px;
@@ -67,8 +70,8 @@ li{
 
 
 .hbutton{
-    font-size:25px ;
-    font-family: arial;
+    font-size:18px ;
+    font-family: Franklin Gothic Medium;
     padding: 2px;
     margin-right: 1px;
     color: white;
@@ -83,6 +86,7 @@ li{
 }
 
 .hbutton .material-icons{
+    padding: 0px;
     font-size:50px;
 }
 
