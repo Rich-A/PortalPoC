@@ -9,7 +9,6 @@ answer1:
 answer2:
   Text: Stephen
   Link: google.co.uk
-answer2link: google.co.uk
 layout: question
 ---
 
