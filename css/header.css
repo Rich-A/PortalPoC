@@ -14,14 +14,12 @@
     list-style: none;
 }
 
-a{
+  
+
+.hbutton a{
     color: white;
     text-decoration: none;
     overflow: hidden;
-    
-}   
-
-.hbutton a{
     display: block;
     height: 100%;
     width: 100%;
