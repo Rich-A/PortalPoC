@@ -11,7 +11,7 @@ $( document ).ready(function() {
 
 
 
-$('.answer').click(function(){
+$('.answer_box').click(function(){
 
     var number = ('.answer').n;
     
