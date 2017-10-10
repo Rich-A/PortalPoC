@@ -22,3 +22,5 @@ defaults:
     layout: page
 permalink: pretty
 encoding: utf-8
+include:
+- _pages
