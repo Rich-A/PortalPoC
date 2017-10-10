@@ -2,7 +2,7 @@
 title: test
 date: 2017-10-09 15:29:00 Z
 question1:
-  Text: Is it a personal email?
+  text: Is it a personal email?
   answer1:
     text: 'Yes'
     link: 2
