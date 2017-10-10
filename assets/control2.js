@@ -4,7 +4,7 @@
 //page.question.answer
 //page.question.answer.link
 $( document ).ready(function() {
-    $('.answer_box').hide();
+    $('.question_box').hide();
     $('#1').show();
 
 
@@ -15,7 +15,7 @@ $('.answer_box').click(function(){
 
     var number = ('.answer').n;
     
-    $('.answer_box').hide();
+    $('.question_box').hide();
     $('#'+number).show();
     
 });
