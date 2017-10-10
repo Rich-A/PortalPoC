@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="../css/question.css">
+    <script src=",,/assets/control2.js"></script>
+
+    <body>
+        <header id="header">
+            {% include header.html %}
+        </header>
+
+        <div class="content"> 
+
+            <div class= "qzone">
+        <div class="question_box" id="1">
+        <p class="question">{{page.question1.text}}</p>
+       
+        <div class="answer_box">
+            <a class="answer" n="{{page.question1.answer1.link}}">{{page.question1.answer1.Text}}</a>
+        </div>
+        <div class="answer_box">
+            <a class="answer" n="{{page.question1.answer2.link}}">{{page.question1.answer2.Text}}</a>
+        </div>
+        <div class="answer_box">
+            <a class="answer" n="{{page.question1.answer3.link}}">{{page.question1.answer3.Text}}</a>
+        </div>
+    </div>
+
+    <div class="question_box" id="2">
+        <p class="question">{{page.question1.text}}</p>
+       
+        <div class="answer_box">
+            <a class="answer" n="{{page.question2.answer1.link}}">{{page.question2.answer1.Text}}</a>
+        </div>
+        <div class="answer_box">
+            <a class="answer" n="{{page.question2.answer2.link}}">{{page.question2.answer2.Text}}</a>
+        </div>
+        <div class="answer_box">
+            <a class="answer" n="{{page.question2.answer3.link}}">{{page.question2.answer3.Text}}</a>
+        </div>
+    </div>
+
+
+
+    <div class= "mzone">
+
+
+        <p class= "matters">Why it matters...</p>
+        <p class= "info">{{page.information}}</p>
+
+    </div>
+</div>
+
+
+
+
+        <footer id="footer">
+            {% include footer.html %}
+        </footer>
+    </body>
+
+
+
+</html>
