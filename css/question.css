@@ -13,7 +13,7 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
     margin-left:15%;
     padding-top: 70px;
     padding-left: 103px;
-    color:white;
+    /* color:white; */
     width: 815px;
 }
 
@@ -28,18 +28,20 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
     background-color: white;
     font-weight: bold;
     font-family: arial;
-   
     padding-left: 30px;
+    padding-right: 15px;
     /* margin-right: 50px; */
 }
 
 .matters{
-    font-family: FranklinGothic-Medium;
-font-size: 18px;
-color: #63666A;
-letter-spacing: 0;
-   margin-top: 15px
-
+    font-family: FranklinGothic-Book;
+    font-size: 23px;
+    color: #63666A;
+    /* letter-spacing: 0; */
+    margin-top: 15px;
+    border-bottom-style: dotted;
+    border-bottom-color: gray;
+    border-bottom-width: 2px;
 }
 
 .info{
@@ -56,8 +58,9 @@ letter-spacing: 0;
 .answer_box a{
     font-weight:bold;
     text-decoration: none;
-   font-family: FranklinGothic-Medium;
-    font-size: 16px;
+    font-family: FranklinGothic-Medium;
+    font-size: 20px;
+    font-weight: bold;
     letter-spacing: 0;
     display: block;
     height: 100%;
@@ -76,8 +79,8 @@ letter-spacing: 0;
 }
 
 .answer{
-    padding-left:10px;
-    padding-top:10px;
+    padding-left: 20px;
+    padding-top: 5px;
     background-color: #F0662F;
     color: white;
 }
