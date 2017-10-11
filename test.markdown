@@ -17,15 +17,16 @@ question2:
   answer2:
     text: UK Controlled Technical Data
     link: 9
-question9:
-  text: Have you chosen the correct signature
-  answer1:
-    text: 'yes'
-    link: 10
-question10:
-  text: Click here to start again.
-  answer1: 
-  link: 1
-layout: test
+  question9:
+    text: Have you chosen the correct signature
+    answer1:
+      text: 'yes'
+      link: 10
+  question10:
+    text: Click here to start again.
+    answer1: 
+    link: 1
+layout: question
 ---
 
+{% include email1.html %} 
