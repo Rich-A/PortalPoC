@@ -23,9 +23,10 @@ question2:
       text: 'yes'
       link: 10
   question10:
-    text: Click here to start again.
-    answer1: 
-    link: 1
+    text: You have reached the end of this process
+    answer1:
+      text: Click here to start again
+      link: 1
 layout: question
 ---
 
