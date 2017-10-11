@@ -4,12 +4,28 @@ date: 2017-10-09 15:29:00 Z
 question1:
   text: Is it a personal email?
   answer1:
-    text: 'Yes'
-    link: 2
+    text: 'yes'
+    link: 9
+  answer2: 
+    text: 'no'
+    link: 2 
 question2:
-  text: Blah
+  text: Is there any controlled /  Technical Data?
   answer1:
-    text: me
+    text: US Controlled Technical Data
+    link: 9
+  answer2:
+    text: UK Controlled Technical Data
+    link: 9
+  question9:
+    text: Have you chosen the correct signature
+    answer1:
+      text: 'yes'
+      link: 10
+  question10:
+    text: You have reached the end of the process.
+    answer1:
+    text: Click here to start again.
     link: 1
 layout: test
 ---
