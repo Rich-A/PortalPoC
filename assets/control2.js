@@ -13,7 +13,7 @@ $( document ).ready(function() {
 
 $('.answer_box').click(function(){
 
-    var number = ('.answer').n;
+    var number =  (this).getAttribute("n");
     
     $('.question_box').hide();
     $('#'+number).show();
