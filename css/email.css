@@ -7,7 +7,7 @@
 body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 .stretch{
-	width: 100%px; padding: 0; margin: 0;
+	width: 100%; padding: 0; margin: 0;
 }
 
 
@@ -117,3 +117,31 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 }
 
 
+#email3{
+	background-image: url("../assets/gray.png");
+	height: 400px;
+}
+
+
+#email3 h2{
+	font-size: 30px;
+	font-family: Franklin Gothic Book;
+	color: white;
+	font-weight: 100px;
+
+}
+
+.text_box{
+	padding-top: 27px;
+    margin-left: 515px;
+    width: 538px;
+}
+
+.sub-text{
+	color: white;
+	font-family: Franklin Gothic Book;
+}
+
+.bold{
+    font-weight: bold;
+}
