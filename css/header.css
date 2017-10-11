@@ -1,7 +1,6 @@
 
 
 #header-container{
-    height: 100px;
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -17,7 +16,6 @@
   
 
 .hbutton a{
-    color: white;
     text-decoration: none;
     overflow: hidden;
     display: block;
@@ -56,15 +54,17 @@ li{
 }
 
 #top-header{
-    
-    background-color: black;
+    color: #14395D;
+    background-color: white;
     
 }
 
 #bottom-header{
-    background-color: #171e28;
-    
-    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-bottom-width: 5px;
+    border-bottom-color:#14395D;
+    border-bottom-style: solid;
 }
 
 
@@ -74,8 +74,6 @@ li{
     font-family: Franklin Gothic Medium;
     padding: 2px;
     margin-right: 1px;
-    color: white;
-    height: 50px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 12px;
@@ -114,6 +112,6 @@ li{
 }
 
 #home{
-
+    background-color: #14395D;
     font-size: 50px;
 }
