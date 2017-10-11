@@ -6,9 +6,9 @@ question1:
   answer1:
     text: 'yes'
     link: 9
-  answer2: 
+  answer2:
     text: 'no'
-    link: 2 
+    link: 2
 question2:
   text: Is there any controlled /  Technical Data?
   answer1:
@@ -23,9 +23,8 @@ question2:
       text: 'yes'
       link: 10
   question10:
-    text: You have reached the end of the process.
-    answer1:
     text: Click here to start again.
+    answer1: 
     link: 1
 layout: test
 ---
