@@ -17,16 +17,16 @@ question2:
   answer2:
     text: UK Controlled Technical Data
     link: 9
-  question9:
-    text: Have you chosen the correct signature
-    answer1:
-      text: 'yes'
-      link: 10
-  question10:
-    text: You have reached the end of this process
-    answer1:
-      text: Click here to start again
-      link: 1
+question9:
+  text: Have you chosen the correct signature
+  answer1:
+    text: 'yes'
+    link: 10
+question10:
+  text: You have reached the end of this process
+  answer1:
+    text: Click here to start again
+    link: 1
 layout: question
 ---
 
