@@ -80,5 +80,10 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 }
 
 .answer:empty{
+    background-color: white;
+    color: #F0662F;
+}
+
+.answer:empty{
 display:none;
 }
