@@ -1,10 +1,14 @@
+ol.news{
+	padding:0px;
+}
+
 body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 #link_container{
 	display: flex;
 	background: #222222;
 	height: 78px;
-	padding-left: 213px;
+	padding-left: 6.6%;
 }
 
 .news{
@@ -20,13 +24,12 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 	padding-top: 10px;
 	background-size:100%;
 	background: #D8DCDB;
-	background-image: url("../assets/bg_latestnews.png") ;
-	height: 227px;
-	padding-left: 213px;
+	background-image: url("../assets/bg_latestnews.png");
+	height: 263px;
+	padding-left: 6.6%;
 }
 
 #news_container h2{
-	margin-left: 55	px;
 }
 
 .news li {
