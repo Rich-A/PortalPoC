@@ -1,16 +1,16 @@
 
 
 #header-container{
+    /* height: 100px; */
     width: 100%;
-    padding: 7.6%;
+    /* padding-left: 7.6%; */
     margin: 0px;
     white-space: nowrap;
-   
-   
 }
 
 #header-container ul{
     list-style: none;
+    padding-left: 7.6%;
 }
 
   
@@ -103,10 +103,6 @@ li{
     margin-right: 2px;
 }
 
-.first{
-    margin-left:150px;
-
-}
 
 #last{
     margin-right: 2px;
