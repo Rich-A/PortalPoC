@@ -19,36 +19,35 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 #email1{
 	display: inline-flex;
 	background-color:white;
-	height: 400px;
+	height: 22.2%;
 	width: 100%;
 	padding-left: 7.6%;
-	/* padding-top: 85px; */
 	width: 100%;
 }
 
 .tbox{
-	margin-top: 85px;
-	/* padding-left: 30px; */
+	margin-top: 1%;
 	}
 
 
 	.himage {
-		height: 400px;
-		margin-bottom: -5px;
-		margin-left: 26%;
+		right: 33%;
+		top: -6%;
+		position:absolute;
+		height: 28%;
+		/* margin-left: 10%; */
 	}
 	
 .tbox h1{
 	font-weight:bold;
 	font-family: arial;
-	font-size: 40px;
+	font-size: 100%;
 	color: #1B1B1B;
 	letter-spacing: 0;
-	margin-bottom: 20px;
-
+	margin-bottom: 3%;
 }
 
-.tbox h2{font-family: arial;font-size: 22px;color: #63666A;letter-spacing: 0;width: 673px;height:8.2%;}
+.tbox h2{font-family: arial;font-size: 100%;color: #63666A;letter-spacing: 0;width: 42%;height:8.2%;}
 
 
 #email2{
@@ -66,7 +65,7 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 .gray{
 	color: gray;
-	font-family: Franklin Gothic Book;
+	font-family: arial;
 }
 
 .elinks a{
@@ -78,7 +77,7 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 }
 
 .ebutton{
-	font-family: Franklin Gothic Book;
+	font-family: arial;
 	padding-top: 15px; 
     padding-left: 20px;
     padding-right: 25px;
@@ -136,7 +135,7 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 #email3 h2{
 	font-size: 30px;
-	font-family: Franklin Gothic Book;
+	font-family: arial;
 	color: white;
 	font-weight: 100px;
 
@@ -150,7 +149,113 @@ body { padding: 0; margin: 0; width: 100%; height: 100% }
 
 .sub-text{
 	color: white;
-	font-family: Franklin Gothic Book;
+	font-family: arial;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#email2{
+	background-color: #e1e5eb;
+	height: 500px;
+	padding-top: 50px;
+	padding-left: 150px;
+	padding-bottom: 40px;
+}
+
+#email2 h2{
+	font-size: 30px;
+}
+
+
+.gray{
+	color: gray;
+	font-family: arial;
+}
+
+.elinks a{
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+ 
+    
+}
+
+.ebutton{
+	font-family: arial;
+	padding-top: 15px; 
+    padding-left: 20px;
+    padding-right: 25px;
+    font-size:17px ;
+    margin-right: 10px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: gray;
+     height: 90px;
+    width: 275px;
+    border-bottom: ridge 7px black;
+   
+}
+
+.ebutton a{
+	display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.ebutton:hover{
+	background-color: orangered!important;
+}
+
+.elinks{
+	padding:0px;
+	margin:0px;
+	margin-top: 50px;
+    overflow: hidden;
+    height: 200px;
+    display: flex;
+    float: left;
+    clear: both;
+}
+
+
+
+
+.bulk_text{
+	width: 975px;
+}
+
+
+#email2 ul{
+	list-style: none;
+}
+
+
+#email3{
+	background-image: url("../assets/gray.png");
+	height: 400px;
+}
+
+
+#email3 h2{
+	font-size: 30px;
+	font-family: arial;
+	color: white;
+	font-weight: 100px;
+
+}
+
+.text_box{
+	padding-top: 27px;
+    margin-left: 515px;
+    width: 538px;
+}
+
+.sub-text{
+	color: white;
+	font-family: arial;
 }
 
 .bold{

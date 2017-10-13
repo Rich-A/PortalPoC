@@ -1,14 +1,14 @@
 
 
 #header-container{
-    /* height: 100px; */
     width: 100%;
-    /* padding-left: 7.6%; */
     margin: 0px;
     white-space: nowrap;
 }
 
 #header-container ul{
+    z-index: 10;
+    position: relative;
     list-style: none;
     padding-left: 7.6%;
 }
@@ -18,16 +18,16 @@
 .hbutton a{
     text-decoration: none;
     overflow: hidden;
-    display: block;
+    display: flex;
     height: 100%;
     width: 100%;
 }
 
-.text{
-    padding-top: 15px!important;
+
+
+.first{
+    padding-left:0px!important;
 }
-
-
 
 .hbutton a:visited{
     font-weight: normal!important;
@@ -41,10 +41,8 @@ li{
 }
 
 .header {
- 
     margin:0px;
     overflow: hidden;
-    height: 60px;
     display: flex;
     float: left;
     clear: both;
@@ -52,9 +50,14 @@ li{
 }
 
 #top-header{
+    height: 5%;
     color: #14395D;
     background-color: white;
-    
+}
+
+#top-header .hbutton{
+    padding-top:0.5%;
+    /* padding-bottom: 0.5%; */
 }
 
 #top-header .hbutton:hover{
@@ -62,12 +65,18 @@ li{
     color: white;
 }
 
+
 #bottom-header{
+    height: 6.3%;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
-    border-bottom-width: 5px;
+    border-bottom-width: 1.5%;
     border-bottom-color:#14395D;
     border-bottom-style: solid;
+}
+
+#bottom-header .hbutton{
+    padding-top:1%;
 }
 
 #bottom-header .hbutton:hover{
@@ -77,20 +86,38 @@ li{
 
 
 .hbutton{
-    font-size:18px;
+    font-size: 111%;
     font-family: arial;
-    padding: 2px;
-    margin-right: 1px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 12px;
-    padding-right: 12px;
-    height: 100%;
-}
+    /* padding: 2px; *//* margin-right: 1%; *//* padding-bottom: 0; */
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    height: 100%;}
 
 .hbutton .material-icons{
     padding: 0px;
-    font-size:50px;
+    font-size:auto;
+    height:100%;
+    width: 2%;
+}
+
+#user{
+
+    margin-left:10%;
+    height:200%;
+    padding-left:0.25%;
+    padding-right:0.25%;
+}
+
+#message{
+    height:100%;
+    padding-left:0.25%;
+    padding-right:0.25%;
+} 
+
+#search{
+    height:100%;
+    padding-left:0.25%;
+    padding-right:0.25%;
 }
 
 .bold{
@@ -114,7 +141,10 @@ li{
 
 #home{
     background-color: #14395D;
-    font-size: 50px;
+    padding-left:0.5%;
+    padding-right:0.5%;
+    padding-top:0.5%!important;
+    padding-bottom: 0.5%;
 }
 
 #home:hover{
